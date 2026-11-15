@@ -253,15 +253,63 @@
 
     <p class="section-number">SECTION 03 — Modules</p>
 
-    <h2>Additional Notes</h2>
+    <h2>On The Subject Of Fish</h2>
 
     <p>
-       
+       The escapee is presented with four buttons, each with
+       different pictures of fish on them. Push the buttons in
+       the correct order to supply power.
+
+       There will be a fish tank on board the submarine. The
+       number of fish and their colour will tell you how which order
+       to push the buttons in.
     </p>
 
-    <p>
-        
-    </p>
+    <table class="manual-table">
+  <tr>
+    <th>Number of Wires</th>
+    <th>Condition</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td rowspan="4">3 Wires</td>
+    <td>No red wires</td>
+    <td>Cut the second wire</td>
+  </tr>
+  <tr>
+    <td>Last wire is white</td>
+    <td>Cut the last wire</td>
+  </tr>
+  <tr>
+    <td>More than one blue wire</td>
+    <td>Cut the last blue wire</td>
+  </tr>
+  <tr>
+    <td>Otherwise</td>
+    <td>Cut the last wire</td>
+  </tr>
+  <tr>
+    <td rowspan="5">4 Wires</td>
+    <td>More than one red wire and odd serial number</td>
+    <td>Cut the last red wire</td>
+  </tr>
+  <tr>
+    <td>Last wire yellow and no red wires</td>
+    <td>Cut the first wire</td>
+  </tr>
+  <tr>
+    <td>Exactly one blue wire</td>
+    <td>Cut the first wire</td>
+  </tr>
+  <tr>
+    <td>More than one yellow wire</td>
+    <td>Cut the last wire</td>
+  </tr>
+  <tr>
+    <td>Otherwise</td>
+    <td>Cut the second wire</td>
+  </tr>
+</table>
 
     <div class="footer">
         <span>Field Manual — Edition 01</span>
